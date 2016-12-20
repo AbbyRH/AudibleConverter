@@ -1,8 +1,12 @@
 # Usage
 
-1. put files to convert in toconvert/
-2. run `docker-compose up`
-3. profit? :)
+1. open convert.sh and insert your audible activation code
+2. put files to convert in toconvert/
+3. run `docker-compose up`
+
+# Audible Activation Code
+
+There are many methods on the internet for finding your activation code, the one i used was to install the audible manager from http://www.audible.co.uk/sw and then install nodejs and use the npm package audible-converter package.
 
 # Requirements
 
