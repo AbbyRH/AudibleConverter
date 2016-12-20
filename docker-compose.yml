@@ -1,0 +1,9 @@
+version: '2'
+services:
+  convert:
+    build: .
+    volumes:
+     - ./toConvert:/app/toConvert
+     - ./completed:/app/completed
+     - ./finishedaax:/app/finishedaax
+     - ./decrypted:/app/decrypted
